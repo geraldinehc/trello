@@ -5,7 +5,7 @@ ventana . addEventListener ( ' load ' , function () {
   párrafo . addEventListener ( ' click ' , function () {
     inputBoard . removeChild (párrafo);
     inputBoard . ClassList . add ( ' input-board-js ' );
-    
+
     var newList =  documento . createElement ( ' entrada ' );
     nuevaLista . ClassList . add ( ' nueva lista ' );
     nuevaLista . setAttribute ( ' placeholder ' , ' Añadir una lista ... ' );
