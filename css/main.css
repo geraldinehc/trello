@@ -16,18 +16,18 @@ ul li {
 a {
   padding: 5px;
   text-decoration: none;
-  color: #FFF;
+  color: #fff;
   height: 30px;
   margin-right: 3px;
 }
 
 .background {
-  background: rgba(255,255,255,.3);
+  background: rgba(255,255,255,0.3);
   border-radius: 3px;
 }
 
 body {
-  background: #0079BF;
+  background: #C39BD3;
   font-family: Helvetica, sans-serif;
   color: #FFF;
 }
@@ -35,7 +35,7 @@ body {
 header {
   width: 100%;
   text-align: justify;
-  background: #0067A3;
+  background: #8E44AD;
   padding: 5px 10px;
   height: 40px;
   z-index: 1000;
@@ -134,7 +134,7 @@ img {
 }
 
 .add-task-js {
-  color: #838C91;
+  color: black;
   display: block;
 }
 
