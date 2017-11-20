@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Trello</title>
+    <!-- Enlasando los iconos y oponiendolos en mi index.html -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a class="background" href="#">
+          <span class="fa fa-trello" aria-hidden="true"></span>
+          <span>Tableros</span>
+        </a>
+        <input type="text">
+        <span class="fa fa-search background" aria-hidden="true"></span>
+      </div>
+      <div class="logo navbar">
+        <a href="#">
+          <img src="assets/images/logo.svg" alt="Logo Trello">
+        </a>
+      </div>
+      <div class="navbar">
+        <ul>
+          <li>
+            <a class="background" href="#">
+              <span class="fa fa-plus" aria-hidden="true"></span>
+            </a>
+          </li>
+          <li>
+            <a class="background" href="#">
+              <span class="fa fa-clock-o" aria-hidden="true"></span>
+            </a>
+          </li>
+          <li>
+            <a class="background" href="#">
+              <span class="fa fa-bell-o" aria-hidden="true"></span>
+            </a>
+          </li>
+          <li>
+            <a class="background" href="#">
+              <span class="fa fa-user-circle" aria-hidden="true"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <section class="menu-bar">
+      <div class="container">
+        <div class="info-menu">
+          <ul>
+            <li>
+              <a href="#">
+                <span>Tablero - Reto de Código</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa fa-star-o"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa fa-lock"></span>
+                <span>Privado</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="show-menu">
+          <a href="#">
+            <span class="fa fa-ellipsis-h"></span>
+            <span>Mostrar Menú</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="boards">
+      <div id="input-board" class="board">
+        <p>Añadir una lista...</p>
+      </div>
+    </section>
+    <script src="js/app.js"></script>
+  </body>
+</html>
